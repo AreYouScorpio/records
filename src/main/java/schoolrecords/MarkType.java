@@ -18,7 +18,7 @@ public enum MarkType {
 
     MarkType(String s) {
         this(MarkType.valueOf(s).ordinal(),s);
-        this.s = s;
+        // this.s = s;
     }
 
     @Override

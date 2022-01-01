@@ -8,7 +8,9 @@ public class Student {
     MarkType markType;
     List<Mark> marks;
 
-
+    public String getName() {
+        return name;
+    }
 
     public Student(String name, MarkType markType , List<Mark> marks) {
         if (name == null || name.length()==0) throw new IllegalArgumentException("Student name must not be empty!");
@@ -38,16 +40,7 @@ public class Student {
         if (mark == null) throw new NullPointerException("Mark must not be null!");
         this.marks.add(mark);
     }
-/*
-    @Test
-    public void testGrading() {
-        //Given
-        Student student = new Student("Kovács");
-        //When
-        student.grading(new Mark(MarkType.A, MATH, TUTOR));
-        //Then
-        assertEquals("Kovács marks: matematika: excellent(5)", student.toString());
-    }*/
+
 
 
 

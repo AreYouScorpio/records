@@ -11,7 +11,6 @@ import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/*
 public class ClassRecordsTest {
 
     private ClassRecords classRecords;
@@ -153,7 +152,7 @@ public class ClassRecordsTest {
 
 
 
-}
 
- */
+
+}
 
